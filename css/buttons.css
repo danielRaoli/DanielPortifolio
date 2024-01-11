@@ -1,0 +1,14 @@
+.main_button{
+    background-color:rgb(191, 191, 0);
+    color: black;
+    border: none;
+    padding: 1rem;
+    border-radius: .25rem;
+    transition: 500ms ease;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.main_button:hover{
+    transform: scale(1.08);
+}
