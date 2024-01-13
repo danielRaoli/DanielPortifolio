@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.actions{
+    display: flex;
+    
+    gap: 1rem;
+}
+
+.action-link{
+    color: white;
+    list-style-type: none;
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+.action-link:hover{
+    font-size: 1.8rem;
+}

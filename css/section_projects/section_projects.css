@@ -46,6 +46,7 @@
     border-radius: inherit;  
     transition: 500ms ease-in; 
     cursor: pointer; 
+    max-height: 170px;
 }
 
 .card_project .actions{
@@ -64,6 +65,7 @@
 
 .card_project .link_project img{
     width: 100%;
+    
 }
 
 .wrapper_projects{
