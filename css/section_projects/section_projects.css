@@ -1,0 +1,74 @@
+
+.filter_projects{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.filter_button{
+    height: 50px;
+    width: 70px;
+    border: none;
+    display: flex;
+    border-radius: .25rem;
+    justify-content: center;
+    padding: .25rem;
+    transition: 500ms ease-in-out;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.filter_button:hover{
+    transform: scale(1.08);
+}
+
+.filter_button img{
+    object-fit: contain;
+    
+}
+
+.card_project{
+    width: 80%;
+    border-radius: .25rem;
+    transition: 500ms ease-in;
+    background-color: rgb(58, 58, 58);
+}
+
+.card_project img:hover{
+    transform: scale(1.05);
+}
+
+.card_project img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;  
+    transition: 500ms ease-in; 
+    cursor: pointer; 
+}
+
+.card_project .actions{
+    display: flex;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.card_project .link_project{
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.card_project .link_project img{
+    width: 100%;
+}
+
+.wrapper_projects{
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
