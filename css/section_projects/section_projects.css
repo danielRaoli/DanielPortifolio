@@ -48,6 +48,7 @@
     transition: 500ms ease-in; 
     cursor: pointer; 
     max-height: 170px;
+    height: 70%;
 }
 
 .card_project .actions{
@@ -75,5 +76,23 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2.5rem;
+    justify-items: center;
     justify-content: center;
+}
+
+
+@media  screen and (max-width:740px) {
+    .wrapper_projects{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .card_project{
+        width: 40%;
+    }
+
+    .card_project .link_project img{
+        width: 80%;
+    }
 }

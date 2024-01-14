@@ -1,6 +1,6 @@
  const dataProjects = [
     {
-        link:"Lr-Contabilidade",
+        link:"LR-Contabilidade",
         image:"contabilidade",
         alt: "Site de contabilidade",
         type: "front"
@@ -120,6 +120,7 @@ btnTec.addEventListener('click',() =>{
     </div>`)
     aboutArea.insertAdjacentElement('afterbegin', wraperSkills);
     const skills = document.querySelectorAll('.skill');
+    
     skills.forEach((skill) => {
         setTimeout(() => {
             skill.classList.add('-activate')
@@ -147,8 +148,8 @@ tecActivate = false;
 
 });
 
-if(aboutActivate){
+if(aboutActivate){ 
     aboutArea.insertAdjacentHTML('afterbegin',`<p class="description">
     Olá me chamo Daniel Raoli, graduado em análise e desenvolvimento de sistemas curso que me deu oportunidade de ter contato acadêmico com diversos nichos, linguagens e ensinamentos relacionados a software e seu desenvolvimento. Atualmente me encontro cursando pós graduação em Desenvolvimento Web Full Stack área que acabei me apaixonando ainda mais durante estudos e projetos pessoais. Já atuo como freelancer sendo desenvolvedor front-end criando sites estáticos com Css e Html, JavaScript, React e tenho experiência no desenvolvimento back-end de sites dinâmicos utilizando C# .Net . 
             </p>`)
-}
+}  
