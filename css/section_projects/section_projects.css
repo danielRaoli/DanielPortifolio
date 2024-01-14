@@ -95,4 +95,8 @@
     .card_project .link_project img{
         width: 80%;
     }
+    .filter_button img{
+        width: 70%;
+        height: auto;
+    }
 }
