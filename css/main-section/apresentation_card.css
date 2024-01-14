@@ -8,7 +8,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-300px,-500px);
+    transform: translate(-300px,-900px);
     display: flex;
     align-items: flex-end;
     justify-content: center;
