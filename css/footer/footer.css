@@ -1,0 +1,14 @@
+footer{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a >img{
+    height: 50px;
+    width: auto;
+}

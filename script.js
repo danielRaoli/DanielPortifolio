@@ -140,7 +140,9 @@ btnTec.addEventListener('click',() =>{
     aboutArea.removeChild(aboutArea.firstChild);
 
     aboutArea.insertAdjacentHTML('afterbegin',`<p class="description">
-    Olá me chamo Daniel Raoli, graduado em análise e desenvolvimento de sistemas curso que me deu oportunidade de ter contato acadêmico com diversos nichos, linguagens e ensinamentos relacionados a software e seu desenvolvimento. Atualmente me encontro cursando pós graduação em Desenvolvimento Web Full Stack área que acabei me apaixonando ainda mais durante estudos e projetos pessoais. Já atuo como freelancer sendo desenvolvedor front-end criando sites estáticos com Css e Html, JavaScript, React e tenho experiência no desenvolvimento back-end de sites dinâmicos utilizando C# .Net . 
+    Sou graduado em Análise e Desenvolvimento de Sistemas e sou verdadeiramente apaixonado pelo mundo do desenvolvimento de softwares. Tenho uma habilidade inata para criar soluções eficientes para problemas, independentemente da tecnologia envolvida. Minhas principais habilidades incluem o desenvolvimento back-end utilizando .Net e C#, enquanto no front-end, minha preferência recai sobre o Angular.
+    Ao longo da minha jornada profissional, adquiri experiência como freelancer, desenvolvendo aplicações e sites para a web. Minha versatilidade me permite atuar tanto na concepção e implementação de soluções back-end quanto na criação de interfaces front-end de projetos.
+    Estou constantemente atualizando meus conhecimentos para acompanhar as inovações do setor, e estou pronto para contribuir de maneira proativa em projetos desafiadores.
      </p>`);
 
 aboutActivate = true;
@@ -150,6 +152,8 @@ tecActivate = false;
 
 if(aboutActivate){ 
     aboutArea.insertAdjacentHTML('afterbegin',`<p class="description">
-    Olá me chamo Daniel Raoli, graduado em análise e desenvolvimento de sistemas curso que me deu oportunidade de ter contato acadêmico com diversos nichos, linguagens e ensinamentos relacionados a software e seu desenvolvimento. Atualmente me encontro cursando pós graduação em Desenvolvimento Web Full Stack área que acabei me apaixonando ainda mais durante estudos e projetos pessoais. Já atuo como freelancer sendo desenvolvedor front-end criando sites estáticos com Css e Html, JavaScript, React e tenho experiência no desenvolvimento back-end de sites dinâmicos utilizando C# .Net . 
+    Sou graduado em Análise e Desenvolvimento de Sistemas e sou verdadeiramente apaixonado pelo mundo do desenvolvimento de softwares. Tenho uma habilidade inata para criar soluções eficientes para problemas, independentemente da tecnologia envolvida. Minhas principais habilidades incluem o desenvolvimento back-end utilizando .Net e C#, enquanto no front-end, minha preferência recai sobre o Angular.
+    Ao longo da minha jornada profissional, adquiri experiência como freelancer, desenvolvendo aplicações e sites para a web. Minha versatilidade me permite atuar tanto na concepção e implementação de soluções back-end quanto na criação de interfaces front-end de projetos.
+    Estou constantemente atualizando meus conhecimentos para acompanhar as inovações do setor, e estou pronto para contribuir de maneira proativa em projetos desafiadores.
             </p>`)
 }  

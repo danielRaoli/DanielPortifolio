@@ -7,9 +7,18 @@
     transition: 500ms ease;
     font-size: 1rem;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main_button:hover{
     transform: scale(1.08);
+}
+
+.main_button.-secundary{
+    background-color: black;
+    color: #f3f3f3;
+    width: 160px;
+    padding: .75rem; 
+  
 }
 

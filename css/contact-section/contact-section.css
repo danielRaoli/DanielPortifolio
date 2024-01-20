@@ -1,0 +1,42 @@
+.container-form{
+    border: 1px solid rgb(191, 191, 0);
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.form-items{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    align-items: center;
+    height: auto;
+}
+
+input{
+
+height: 36px;
+padding: 8px 12px;
+align-items: center;
+border-radius: 6px; 
+}
+
+
+label{
+    color: #f3f3f3;
+}
+
+textarea{
+    max-height: 300px;
+    resize: none;
+}
