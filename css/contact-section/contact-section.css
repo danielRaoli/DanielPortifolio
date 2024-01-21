@@ -40,3 +40,10 @@ textarea{
     max-height: 300px;
     resize: none;
 }
+
+
+@media screen and (max-width:600px) {
+    .container-form{
+        width: 80%;
+    }
+}

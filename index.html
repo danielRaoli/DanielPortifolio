@@ -25,9 +25,9 @@
     <header>
         <nav>
             <ul class="actions">
-                <a href=""><li class="action-link">Projects</li></a>
-                <a href=""><li class="action-link">About me</li></a>
-                <a href=""><li class="action-link">Contato</li></a>
+                <a href="#projects"><li class="action-link">Projects</li></a>
+                <a href="#about"><li class="action-link">About me</li></a>
+                <a href="#contact"><li class="action-link">Contato</li></a>
             
             </ul>
         </nav>
@@ -51,12 +51,12 @@
                     </div>
                     <div class="card_actions">
                         <a href="Assets/arquivos/CVFullStack-1.pdf" class="main_button">Donwload Cv</a>
-                        <button class="main_button">Contato</button>
+                        <a href="#contact" class="main_button">Contact</a>
                     </div>
                 </article>
         </article>  
     </main>
-    <section>
+    <section id="projects">
         <h3 class="section_title">Projects</h3>
         <div class="filter_projects">
             <button id="btn-javascript" class="filter_button">
@@ -73,7 +73,7 @@
 
         </div>
     </section>
-    <section class="about-section">
+    <section id="about" class="about-section">
         <h3 class="section_title">About <span style="color: rgb(211, 211, 44);">me</span></h3>
         <div class="container_about">
             <img src="Assets/fotocuriculo.jpg" class="foto_about">
@@ -91,17 +91,18 @@
 
     </section>
     <section>
-        <h3 class="section_title">Contact me</h3>
+        <h3 id="contact" class="section_title">Contact me</h3>
         <div class="container-form">
-            <form>
+            <form action="https://formsubmit.co/danielraoli074@gmail.com" method="POST">
                 <div class="form-items">
                     <label for="email">Email</label>
-                    <input type="email" placeholder="Email for contact">
+                    <input name="email" type="email" placeholder="Email for contact">
                 </div>
                 <div class="form-items">
                     <label for="message">Message</label>
                     <textarea name="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
                 </div>
+                <input type="hidden" name="_next" value="https://danielraoli.github.io/DanielPortifolio/agradecimento">
                 <button class="main_button -secundary" type="submit">Send</button>
             </form>
         </div>
