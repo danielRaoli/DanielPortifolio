@@ -75,11 +75,12 @@
 .wrapper_projects{
     padding: 2rem 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2.5rem;
     justify-items: center;
     justify-content: center;
 }
+
 
 
 @media  screen and (max-width:740px) {
