@@ -42,7 +42,7 @@ const dataProjects = [
         gitLink: "https://github.com/DanielRaoli/sistema-fretamento"
     },
     {
-        link: "",
+        link: "https://menu-eta-two.vercel.app/cardapio",
         image: "Restaurante",
         alt: "Site Restaurante",
         type: "front",
