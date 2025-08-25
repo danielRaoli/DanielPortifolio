@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portifolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,500&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
 
     <link rel="stylesheet" href="css/main-section/banner.css">
@@ -21,22 +25,29 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about-section/about-section.css">
     <link rel="stylesheet" href="css/contact-section/contact-section.css">
-    <link rel="stylesheet" href="css/footer/footer.css">    
+    <link rel="stylesheet" href="css/footer/footer.css">
 
     <script src="script.js" defer></script>
 
-    
-    
+
+
 
 </head>
+
 <body>
     <header>
         <nav>
             <ul class="actions">
-                <a href="#projects"><li class="action-link">Projects</li></a>
-                <a href="#about"><li class="action-link">About me</li></a>
-                <a href="#contact"><li class="action-link">Contato</li></a>
-            
+                <a href="#projects">
+                    <li class="action-link">Projects</li>
+                </a>
+                <a href="#about">
+                    <li class="action-link">About me</li>
+                </a>
+                <a href="#contact">
+                    <li class="action-link">Contato</li>
+                </a>
+
             </ul>
         </nav>
     </header>
@@ -45,24 +56,24 @@
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
-          </div>
+        </div>
         <article class="apresentation_card">
-                <div class="apresentation_card_picture">
-                    <div>
-                        <img src="Assets/fotocuriculo.jpg" alt="Foto de Daniel">
-                    </div>
+            <div class="apresentation_card_picture">
+                <div>
+                    <img src="Assets/fotocuriculo.jpg" alt="Foto de Daniel">
                 </div>
-                <article class="apresentation_card_back">
-                    <div class="card_title">
-                        <h1>Daniel Raoli</h1>
-                        <h2>FullStack Developer</h2>
-                    </div>
-                    <div class="card_actions">
-                        <a href="Assets/arquivos/CVFullStack-1.pdf" class="main_button">Donwload Cv</a>
-                        <a href="#contact" class="main_button">Contact</a>
-                    </div>
-                </article>
-        </article>  
+            </div>
+            <article class="apresentation_card_back">
+                <div class="card_title">
+                    <h1>Daniel Raoli</h1>
+                    <h2>FullStack Developer</h2>
+                </div>
+                <div class="card_actions">
+                    <a href="Assets/arquivos/CVFullStack-1.pdf" class="main_button">Donwload Cv</a>
+                    <a href="#contact" class="main_button">Contact</a>
+                </div>
+            </article>
+        </article>
     </main>
     <section id="projects">
         <h3 class="section_title">Projects</h3>
@@ -70,17 +81,17 @@
             <button id="btn-javascript" class="filter_button">
                 <span>All Projects</span>
             </button>
-            <button btn="btn-csharp" class="filter_button">
+            <button id="btn-csharp" class="filter_button">
                 <img src="Assets/html_1051277.png" alt="ìcone html">
             </button>
             <button id="btn-all" class="filter_button">
                 <img src="Assets/c-sharp_6132221.png" alt="ícone C#">
             </button>
         </div>
-    
-            <div class="wrapper_projects carousel">
-    
-        
+
+        <div class="wrapper_projects carousel">
+
+
 
         </div>
     </section>
@@ -95,7 +106,7 @@
                     <button id="btn-tec"><span>Skills</span></button>
                 </div>
                 <div id="about-area">
-                    
+
                 </div>
             </div>
         </div>
@@ -104,26 +115,23 @@
     <section>
         <h3 id="contact" class="section_title">Contact me</h3>
         <div class="container-form">
-            <form action="https://formsubmit.co/danielraoli074@gmail.com" method="POST">
-                <div class="form-items">
-                    <label for="email">Email</label>
-                    <input name="email" type="email" placeholder="Email for contact">
-                </div>
-                <div class="form-items">
-                    <label for="message">Message</label>
-                    <textarea name="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
-                </div>
-                <input type="hidden" name="_next" value="https://danielraoli.github.io/DanielPortifolio/agradecimento">
-                <button class="main_button -secundary" type="submit">Send</button>
-            </form>
+            <div class="form-items">
+                <label for="message">Message</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+            </div>
+            <input type="hidden" name="_next" value="https://danielraoli.github.io/DanielPortifolio/agradecimento">
+            <button class="main_button -secundary" type="submit">Send</button>
         </div>
     </section>
     <footer>
-        <a target="_blank" href="https://github.com/danielRaoli"><img src="Assets/github_270798.png" alt="ícone github"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/daniel-raoli"><img src="Assets/linkedin_2504923.png" alt="ícone linkedin"></a>
+        <a target="_blank" href="https://github.com/danielRaoli"><img src="Assets/github_270798.png"
+                alt="ícone github"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/daniel-raoli"><img src="Assets/linkedin_2504923.png"
+                alt="ícone linkedin"></a>
     </footer>
 
 
 
 </body>
+
 </html>

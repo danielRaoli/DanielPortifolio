@@ -1,6 +1,7 @@
 .container-form{
     border: 1px solid rgb(191, 191, 0);
-    display: flex;
+    display: flex-column;
+    gap: 8px;
     justify-content: center;
     width: 60%;
     padding: 2rem;
@@ -12,6 +13,7 @@
     flex-direction: column;
     width: 90%;
     height: fit-content;
+    margin-bottom: 8px;
 }
 
 form{
